@@ -45,9 +45,9 @@ Leitidee: ruhig und hell, Aufbau wie eine gute Präsentation. Jede Sektion begin
 
 ## Offene TODOs
 
-- [ ] Impressum: ladungsfähige Anschrift und E-Mail eintragen (**Pflicht vor Go-live**)
-- [ ] Datenschutz: Anschrift ergänzen, Text prüfen
-- [ ] Echte Kontakt-E-Mail und LinkedIn-URL eintragen (`index.html`, Sektionen `#beruf` und `#kontakt`)
+- [x] Impressum und Datenschutz mit Anschrift und E-Mail (info@michael-senger.com) gefüllt
+- [x] Kontakt: E-Mail, LinkedIn und Xing verlinkt
+- [ ] Prüfen, ob das Postfach bzw. die Weiterleitung für info@michael-senger.com eingerichtet ist
 - [ ] Texte „Über mich“, „Interessen“ und „Beruf“ von Michael freigeben lassen
 - [ ] Beruf: mit Masterprofil/CV abgleichen, ggf. kurze Stationen ergänzen
 - [ ] Optional: Portrait-Foto, OG-Bild (`assets/og.png`, 1200×630), Englisch-Version (`/en/`)
@@ -55,6 +55,7 @@ Leitidee: ruhig und hell, Aufbau wie eine gute Präsentation. Jede Sektion begin
 
 ## Änderungsprotokoll
 
+- 2026-11-21: v0.3, Impressum, Datenschutz und Kontakt (E-Mail, LinkedIn, Xing) gefüllt (Claude).
 - 2026-11-21: v0.2, helles, ruhiges Redesign. Person statt Vertrieb, Fokus Operations und General Management,
   Schrift Literata selbst gehostet, Uhr mit Ortszeit Augsburg (Claude).
 - 2026-11-21: v0.1, erster dunkler Entwurf (verworfen) (Claude).
