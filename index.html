@@ -3,165 +3,133 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Michael Senger — Sales Operations & Revenue Systems</title>
-  <meta name="description" content="Michael Senger – Sales Operations, Revenue Operations und Prozessoptimierung. Vergütungsmodelle, Forecasting und KI-gestützte Automatisierung. Augsburg / München.">
+  <title>Michael Senger</title>
+  <meta name="description" content="Michael Senger aus Augsburg: wer ich bin, was mich interessiert und wie ich in Operations und General Management arbeite.">
   <link rel="canonical" href="https://michael-senger.com/">
-  <meta property="og:title" content="Michael Senger — Sales Operations & Revenue Systems">
-  <meta property="og:description" content="Ich baue die Systeme hinter dem Vertrieb: Prozesse, Vergütung, Forecasting, Automatisierung.">
+  <meta property="og:title" content="Michael Senger">
+  <meta property="og:description" content="Ich mag es, wenn Dinge funktionieren. In Organisationen, in Projekten und zu Hause.">
   <meta property="og:url" content="https://michael-senger.com/">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#07080c">
+  <meta property="og:type" content="profile">
+  <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/literata-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <canvas id="field" aria-hidden="true"></canvas>
-  <div class="grain" aria-hidden="true"></div>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
 
-  <header class="nav">
-    <a href="#top" class="brand" aria-label="Startseite">MS<span>.</span></a>
-    <nav>
-      <a href="#focus">Fokus</a>
-      <a href="#approach">Arbeitsweise</a>
-      <a href="#lab">Lab</a>
-      <a href="#contact" class="nav-cta">Kontakt</a>
-    </nav>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Michael Senger</a>
+      <nav aria-label="Hauptnavigation">
+        <a href="#ueber-mich">Über mich</a>
+        <a href="#interessen">Interessen</a>
+        <a href="#beruf">Beruf</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
   </header>
 
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero">
-      <p class="eyebrow reveal"><span class="dot"></span> Augsburg · München · Remote</p>
-      <h1 class="reveal">
-        Michael Senger<br>
-        <span class="serif">baut die Systeme</span><br>
-        <span class="grad">hinter dem Vertrieb.</span>
-      </h1>
-      <p class="lede reveal">
-        Sales Operations, Revenue Operations und Prozessoptimierung – mit einem Faible für
-        saubere Vergütungslogik, belastbare Forecasts und Automatisierung, die wirklich Zeit spart.
-      </p>
-      <div class="hero-actions reveal">
-        <a href="#contact" class="btn btn-primary">Gespräch starten <span aria-hidden="true">→</span></a>
-        <a href="#focus" class="btn btn-ghost">Was ich mache</a>
+  <main id="inhalt">
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <h1>Michael Senger</h1>
+        <p class="thesis">Ich mag es, wenn Dinge funktionieren.</p>
+        <p class="intro">
+          In Organisationen, in Projekten und zu Hause. Ich lebe mit meiner Familie im Raum Augsburg
+          und arbeite dort, wo Abläufe, Zahlen und Menschen zusammenkommen: in Operations und General Management.
+        </p>
       </div>
-      <div class="ticker reveal" aria-hidden="true">
-        <div class="ticker-track">
-          <span>Revenue Operations</span><span>OTE &amp; Quota Design</span><span>Forecasting</span>
-          <span>CRM-Prozesse</span><span>Pipeline Hygiene</span><span>KI-Automatisierung</span>
-          <span>PMO</span><span>Sales Enablement</span>
-          <span>Revenue Operations</span><span>OTE &amp; Quota Design</span><span>Forecasting</span>
-          <span>CRM-Prozesse</span><span>Pipeline Hygiene</span><span>KI-Automatisierung</span>
-          <span>PMO</span><span>Sales Enablement</span>
+
+      <figure class="clock">
+        <svg id="dial" viewBox="0 0 200 200" role="img" aria-labelledby="clock-label">
+          <title id="clock-label">Analoge Uhr mit der aktuellen Ortszeit in Augsburg</title>
+          <circle class="dial-face" cx="100" cy="100" r="97"/>
+          <g id="ticks"></g>
+          <g id="hand-hour"><path class="hand" d="M97.8 102.5 L98.7 54 Q100 50.5 101.3 54 L102.2 102.5 Z"/></g>
+          <g id="hand-minute"><path class="hand" d="M98.5 103 L99.3 27 Q100 23.5 100.7 27 L101.5 103 Z"/></g>
+          <g id="hand-second">
+            <line class="hand-second" x1="100" y1="120" x2="100" y2="16"/>
+            <circle class="hand-second-dot" cx="100" cy="100" r="2.6"/>
+          </g>
+          <circle class="dial-pin" cx="100" cy="100" r="1"/>
+        </svg>
+        <figcaption>Gerade ist es <time id="clock-time">--:--</time> in Augsburg.</figcaption>
+      </figure>
+    </section>
+
+    <section class="block wrap" id="ueber-mich">
+      <h2>Ich verstehe Dinge gern von Grund auf.</h2>
+      <div class="prose">
+        <!-- PRÜFEN: Persönliche Angaben vor Go-live freigeben -->
+        <p>
+          Bevor ich etwas verändere, will ich wissen, wie es funktioniert: ein Prozess, ein Geschäftsmodell
+          oder die Bewässerung im eigenen Garten. Ich lese mich gern tief in Themen ein, rechne lieber nach,
+          als zu raten, und nehme die Menschen mit, die am Ende damit arbeiten.
+        </p>
+        <p>
+          Zu Hause bin ich im Raum Augsburg, unterwegs oft zwischen Augsburg und München.
+        </p>
+      </div>
+    </section>
+
+    <section class="block wrap" id="interessen">
+      <h2>Mich interessiert, wie Dinge zusammenhängen.</h2>
+      <div class="interests">
+        <div>
+          <h3>Technik und KI</h3>
+          <p>Zu Hause läuft ein kleiner Rechner mit lokalen KI-Modellen. Ich baue mir Assistenten und Automatisierungen, die Routine abnehmen, und probiere neue Modelle aus, sobald sie erscheinen.</p>
+        </div>
+        <div>
+          <h3>Wirtschaft und Politik</h3>
+          <p>Ich lese lieber Studien als Schlagzeilen, etwa zu Energiepolitik, Elektromobilität oder der Frage, welche Rolle Europa bei KI spielen kann. Mich interessiert, was die Daten sagen.</p>
+        </div>
+        <div>
+          <h3>Strategie</h3>
+          <p>Abends gern eine Runde Civilization. Langfristig planen, Ressourcen abwägen und den Plan anpassen, wenn sich die Lage ändert: Das macht mir im Spiel wie im Beruf Freude.</p>
+        </div>
+        <div>
+          <h3>Uhren und Gestaltung</h3>
+          <p>Mechanische Uhren faszinieren mich: Präzision, die man sehen kann, und Gestaltung, die Jahrzehnte überdauert. Die Uhr oben auf dieser Seite ist eine kleine Verbeugung davor.</p>
         </div>
       </div>
     </section>
 
-    <!-- FOCUS -->
-    <section id="focus" class="section">
-      <div class="section-head reveal">
-        <span class="kicker">01 — Fokus</span>
-        <h2>Wo ich <span class="serif">Wirkung</span> erziele</h2>
+    <section class="block wrap" id="beruf">
+      <h2>Beruflich sorge ich dafür, dass Organisationen rund laufen.</h2>
+      <div class="prose">
+        <!-- PRÜFEN: Mit Masterprofil/CV abgleichen -->
+        <p>
+          Mein Hintergrund liegt in den Operations: Prozesse verbessern, Projekte steuern, Kennzahlen lesbar machen.
+          Gearbeitet habe ich bisher in der IT- und Beratungsbranche, an der Schnittstelle von Vertrieb,
+          Projektgeschäft und Steuerung. Mich reizen Aufgaben mit Überblick und Verantwortung, nah an der
+          Geschäftsführung: Operations, PMO oder Chief of Staff.
+        </p>
       </div>
-      <div class="cards">
-        <article class="card reveal" data-tilt>
-          <div class="card-icon">◎</div>
-          <h3>Sales Operations</h3>
-          <p>Prozesse vom Lead bis zur Rechnung, die skalieren: klare Stages, saubere Daten, weniger manuelle Schleifen.</p>
-          <ul class="tags"><li>Pipeline</li><li>CRM</li><li>Reporting</li></ul>
-        </article>
-        <article class="card reveal" data-tilt>
-          <div class="card-icon">◇</div>
-          <h3>Compensation Design</h3>
-          <p>Variable Vergütung, die das richtige Verhalten belohnt – OTE-Splits, Quota-Mechanik, Accelerators und Fairness.</p>
-          <ul class="tags"><li>OTE</li><li>Quota</li><li>Incentives</li></ul>
-        </article>
-        <article class="card reveal" data-tilt>
-          <div class="card-icon">△</div>
-          <h3>Steuerung &amp; Forecast</h3>
-          <p>Kennzahlen, die Entscheidungen tragen: Forecast-Logik, Risikoabschätzung und finanzielle Projektsteuerung.</p>
-          <ul class="tags"><li>KPIs</li><li>Forecast</li><li>PMO</li></ul>
-        </article>
-        <article class="card reveal" data-tilt>
-          <div class="card-icon">✦</div>
-          <h3>KI &amp; Automatisierung</h3>
-          <p>Agenten und Workflows, die Routinearbeit übernehmen – pragmatisch eingesetzt, messbar im Ergebnis.</p>
-          <ul class="tags"><li>LLM-Agents</li><li>Workflows</li><li>Tooling</li></ul>
-        </article>
-      </div>
+      <dl class="focus">
+        <div><dt>Prozesse und Organisation</dt><dd>Abläufe verstehen, vereinfachen und verbindlich machen.</dd></div>
+        <div><dt>Steuerung und Kennzahlen</dt><dd>Reporting und Forecasts, auf die man Entscheidungen bauen kann.</dd></div>
+        <div><dt>Projekte und PMO</dt><dd>Vorhaben strukturieren, Risiken früh erkennen, Zusagen halten.</dd></div>
+        <div><dt>Automatisierung</dt><dd>Routinearbeit an Software und KI abgeben, damit mehr Zeit für Menschen bleibt.</dd></div>
+      </dl>
+      <!-- TODO: echte LinkedIn-URL eintragen -->
+      <p class="aside">Meinen Werdegang im Detail gibt es auf <a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a>.</p>
     </section>
 
-    <!-- STATS -->
-    <section class="stats reveal">
-      <div class="stat"><span class="num" data-count="10" data-suffix="+">10+</span><span class="label">Jahre Vertrieb &amp; Operations<small>Platzhalter</small></span></div>
-      <div class="stat"><span class="num" data-count="5">5</span><span class="label">Hersteller-Portfolios gesteuert<small>Platzhalter</small></span></div>
-      <div class="stat"><span class="num" data-count="100" data-suffix="%">100%</span><span class="label">Fokus auf messbare Ergebnisse</span></div>
-    </section>
-
-    <!-- APPROACH -->
-    <section id="approach" class="section">
-      <div class="section-head reveal">
-        <span class="kicker">02 — Arbeitsweise</span>
-        <h2>Vom Chaos zum <span class="serif">System</span></h2>
-      </div>
-      <ol class="steps">
-        <li class="step reveal">
-          <span class="step-no">01</span>
-          <div><h3>Verstehen</h3><p>Ist-Prozess, Datenlage und Anreize aufnehmen. Wo entsteht Reibung, wo widersprechen sich Ziele?</p></div>
-        </li>
-        <li class="step reveal">
-          <span class="step-no">02</span>
-          <div><h3>Strukturieren</h3><p>Klare Verantwortlichkeiten, Definitionen und KPIs. Ein Modell, das alle Beteiligten verstehen.</p></div>
-        </li>
-        <li class="step reveal">
-          <span class="step-no">03</span>
-          <div><h3>Automatisieren</h3><p>Wiederkehrendes in Tools und Agenten verlagern – damit das Team Zeit für Kunden hat.</p></div>
-        </li>
-        <li class="step reveal">
-          <span class="step-no">04</span>
-          <div><h3>Messen &amp; Nachschärfen</h3><p>Wirkung sichtbar machen, Feedback einarbeiten, iterieren. Systeme sind nie fertig.</p></div>
-        </li>
-      </ol>
-    </section>
-
-    <!-- LAB -->
-    <section id="lab" class="section">
-      <div class="section-head reveal">
-        <span class="kicker">03 — Lab</span> <small class="draft">Entwurf – Texte prüfen</small>
-        <h2>Woran ich gerade <span class="serif">baue</span></h2>
-      </div>
-      <div class="lab">
-        <div class="terminal reveal" aria-label="Terminal-Animation">
-          <div class="term-bar"><i></i><i></i><i></i><span>~/lab</span></div>
-          <pre id="term"></pre>
-        </div>
-        <div class="lab-list">
-          <div class="lab-item reveal"><h3>AI-Job-Stack</h3><p>Ein persönlicher Agenten-Stack für Recherche, Marktanalysen und strukturierte Dokumentenarbeit.</p></div>
-          <div class="lab-item reveal"><h3>J.A.R.V.I.S.</h3><p>Persönlicher Assistent auf Basis lokaler und Cloud-Modelle – Automatisierung für Alltag und Smart Home.</p></div>
-          <div class="lab-item reveal"><h3>AI-Workstation</h3><p>Eigene Hardware für lokale Modelle: Experimente mit Inferenz, Agenten und Datenschutz by Design.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section contact">
-      <div class="contact-inner reveal">
-        <span class="kicker">04 — Kontakt</span>
-        <h2>Lass uns über <span class="grad">Systeme</span> reden.</h2>
-        <p>Für Gespräche über Sales Operations, Vergütungsmodelle oder KI im Vertrieb.</p>
-        <div class="hero-actions">
-          <!-- TODO: echte Kontaktadresse eintragen -->
-          <a class="btn btn-primary" href="mailto:hallo@michael-senger.com">hallo@michael-senger.com</a>
-          <!-- TODO: echte LinkedIn-URL eintragen -->
-          <a class="btn btn-ghost" href="https://www.linkedin.com/" rel="noopener" target="_blank">LinkedIn ↗</a>
-        </div>
-      </div>
+    <section class="block wrap contact" id="kontakt">
+      <h2>Ich freue mich über Nachrichten.</h2>
+      <p class="prose">Am einfachsten per E-Mail oder über LinkedIn.</p>
+      <ul class="contact-links">
+        <!-- TODO: echte Kontaktadresse und LinkedIn-URL eintragen -->
+        <li><a href="mailto:hallo@michael-senger.com">hallo@michael-senger.com</a></li>
+        <li><a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a></li>
+      </ul>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="site-footer wrap">
     <span>© <span id="year">2026</span> Michael Senger</span>
-    <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+    <span class="footer-links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span>
   </footer>
 
   <script src="assets/main.js" defer></script>

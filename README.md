@@ -1,6 +1,6 @@
 # michael-senger.com
 
-Persönliche Website von Michael Senger: Sales Operations, Revenue Operations, Prozessoptimierung, KI-Automatisierung.
+Persönliche Website von Michael Senger: wer ich bin, was mich interessiert und wie ich in Operations und General Management arbeite.
 
 - **Live:** https://michael-senger.com (Weiterleitung von `www.` und `michael-senger.eu`)
 - **Stack:** reines HTML, CSS und JavaScript. Kein Build-Schritt, keine Abhängigkeiten.
@@ -14,7 +14,8 @@ index.html          Startseite (alle Sektionen)
 impressum.html      Impressum (§ 5 DDG) – Platzhalter ausfüllen!
 datenschutz.html    Datenschutzerklärung – Platzhalter ausfüllen!
 assets/style.css    Design-Tokens und Styles
-assets/main.js      Animationen (Partikel-Hintergrund, Reveal, Tilt, Zähler, Terminal)
+assets/main.js      Uhr mit Ortszeit Augsburg (einziges bewegtes Element)
+assets/fonts/       Literata (selbst gehostet, SIL Open Font License)
 assets/favicon.svg  Favicon
 CNAME               Custom Domain für GitHub Pages
 .nojekyll           Verhindert Jekyll-Verarbeitung
