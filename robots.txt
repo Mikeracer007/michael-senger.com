@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://michael-senger.com/sitemap.xml
